@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - "10"
+before_install:
+  - yarn global add gulp-cli
+install:
+  - yarn
+script:
+  - gulp build
+  - cp -rf src/ dist
+cache:
+  yarn: true
+  directories:
+    - node_modules
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  email: $GITHUB_EMAIL
+  name: $GITHUB_USER
+  keep-history: true
+  on:
+    branch: master

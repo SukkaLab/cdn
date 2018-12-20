@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const yml = require('gulp-yaml');
 
 gulp.task('build', () => {
-    return gulp.src('./cdn.yml')
+    return gulp.src('./src/cdn.yml')
         .pipe(yml({
             schema: 'DEFAULT_SAFE_SCHEMA',
             space: 2,
