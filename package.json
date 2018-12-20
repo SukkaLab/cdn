@@ -1,0 +1,9 @@
+{
+  "name": "lab-cdn-detect",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-yaml": "^2.0.2"
+  }
+}
