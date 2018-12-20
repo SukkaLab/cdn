@@ -1,0 +1,13 @@
+qcloud:
+  name: "腾讯云"
+  cname:
+    - "dnsv1.com"
+ali:
+  name: "阿里云"
+  cname:
+    - "alikunlun.com"
+    - "kunlunca.com"
+newdun:
+  name: "牛顿云安全"
+  cname:
+    - "anquan.io"
