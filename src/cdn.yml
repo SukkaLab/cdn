@@ -31,6 +31,9 @@ cloudfront.net:
 worldcdn.net:
   name: CDN.NET
   link: https://cdn.net
+worldssl.net:
+  name: CDN.NET / CDNSUN / ONAPP
+  link: https://cdn.net
 cdn77.org:
   name: CDN77
   link: https://www.cdn77.com/
@@ -313,3 +316,12 @@ dnsv1.com:
 tencdns.net:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+netlify.com:
+  name: Netlify
+  link: https://www.netlify.com
+zeit.co:
+  name: ZEIT Now
+  link: https://zeit.co
+zeit-cdn.net:
+  name: ZEIT Now with Cloudflare Enterprise
+  link: https://zeit.co
