@@ -82,6 +82,9 @@ akadns.net:
 wscdns.com:
   name: 网宿 CDN
   link: https://www.wangsu.com
+cdn20.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
 wsdvs.com:
   name: 网宿 CDN
   link: https://www.wangsu.com
@@ -233,6 +236,12 @@ qiniudns.com:
   name: 七牛云
   link: https://www.qiniu.com
 jcloudcs.com:
+  name: 京东云 CDN
+  link: https://www.jdcloud.com/cn/products/cdn
+jdcdn.com:
+  name: 京东云 CDN
+  link: https://www.jdcloud.com/cn/products/cdn
+qianxun.com:
   name: 京东云 CDN
   link: https://www.jdcloud.com/cn/products/cdn
 jcloudlb.com:
