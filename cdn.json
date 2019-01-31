@@ -255,10 +255,6 @@
     "name": "西部数码",
     "link": "https://www.west.cn"
   },
-  "kunlunca.com": {
-    "name": "阿里云 CDN",
-    "link": "https://www.aliyun.com/product/cdn"
-  },
   "tbcache.com": {
     "name": "阿里云 CDN",
     "link": "https://www.aliyun.com/product/cdn"
@@ -279,7 +275,7 @@
     "name": "阿里云 CDN",
     "link": "https://www.aliyun.com/product/cdn"
   },
-  "kunlungr.com": {
+  "alicdn.com": {
     "name": "阿里云 CDN",
     "link": "https://www.aliyun.com/product/cdn"
   },
