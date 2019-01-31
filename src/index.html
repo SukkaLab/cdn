@@ -6,10 +6,11 @@
     <link rel="shortcut icon" type="image/ico" href="https://cdn.jsdelivr.net/npm/skx@0.0.1">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
     <title>CDN - Sukka's Lab</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/spectre.css@0.5.7,npm/spectre.css@0.5.7/dist/spectre-exp.min.css,npm/spectre.css@0.5.7/dist/spectre-icons.min.css,npm/suka.css@0.2.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/spectre.css@0.5.7,npm/spectre.css@0.5.7/dist/spectre-exp.min.css,npm/spectre.css@0.5.7/dist/spectre-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.2.1">
 </head>
 
-<body>
+<body class="sk-py-5">
     <div class="container">
         <h1 class="h2 text-center sk-mt-8">CDN 服务商检测</h1>
     </div>
@@ -18,19 +19,99 @@
             <div class="column col-sm-12 col-md-8 col-6 col-mx-auto">
                 <div class="card sk-shadow-2">
                     <div class="card-body">
-                        <div class="form-group">
-                            <label class="form-label" for="domain">请输入域名</label>
-                            <input class="form-input" id="domain" placeholder="mirror.aliyun.com">
-                        </div>
-                        <button class="btn btn-primary sk-mt-3">提交</button>
+                        <form id="form-cdn">
+                            <div class="form-group">
+                                <label class="form-label" for="input-domain">请输入域名</label>
+                                <div class="input-group">
+                                    <input class="form-input" id="input-domain" placeholder="mirrors.aliyun.com"
+                                        autocomplete="off" spellcheck="false" required>
+                                    <button id="btn-search" class="btn btn-primary" type="submit" disabled>提交</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="card-footer">
-                        <p id="output" class="sk-mb-0"></p>
-                    </div>
+                    <div id="output" class="card-footer"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        const _get = (url) =>
+            fetch(url, {
+                method: 'GET'
+            }).then(resp => Promise.all([resp.ok, resp.status, resp.json(), resp.headers])
+            ).then(([ok, status, json, headers]) => {
+                if (ok) {
+                    let data = {
+                        ok,
+                        status,
+                        data: json,
+                        headers
+                    }
+                    return data;
+                } else {
+                    throw new Error(JSON.stringify(json.error));
+                }
+            }).catch(error => {
+                throw error;
+            });
+
+        let CDN = {
+            data: [],
+            domain: '',
+            cname: '',
+            getData: () => {
+                _get('./cdn.json')
+                    .then((resp) => {
+                        CDN.data = resp.data;
+                        document.getElementById('btn-search').removeAttribute('disabled');
+                        document.getElementById('form-cdn').addEventListener('submit', (evt) => {
+                            evt.preventDefault();
+                            CDN.domain = document.getElementById('input-domain').value;
+                            CDN.getCDN(CDN.domain);
+                        });
+                    })
+            },
+            getCDN: (domain) => {
+                _get(`https://api.skk.moe/network/dns/?type=CNAME&name=${domain}`)
+                    .then((resp) => {
+                        console.log(resp.data);
+
+                        if (!resp.data.Answer) {
+                            document.getElementById('output').innerHTML = `<p class="sk-mb-0">没有找到 CNAME 记录</p>`;
+                        } else {
+                            let cname = resp.data.Answer[0].data,
+                                cnameSplit = cname.split('.'),
+                                cnameLength = cnameSplit.length,
+                                cnameLast2 = `${cnameSplit[cnameLength - 3]}.${cnameSplit[cnameLength - 2]}`,
+                                cnameLast3 = `${cnameSplit[cnameLength - 4]}.${cnameSplit[cnameLength - 3]}.${cnameSplit[cnameLength - 2]}`,
+                                isAlicdn = (!!cnameLast2.match(/^kunlun(.*)\.com/i));
+
+                            CDN.cname = cname;
+
+                            if (!isAlicdn) {
+                                if (CDN.data[cnameLast3]) {
+                                    CDN.renderOutput(cnameLast3);
+                                } else if (CDN.data[cnameLast2]) {
+                                    CDN.renderOutput(cnameLast2);
+                                } else {
+                                    document.getElementById('output').innerHTML = `<p class="sk-mb-0">CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">未知的 CDN。你可以在 GitHub 上 <a href="https://github.com/SukkaLab/cdn/issues/new/?title=Can%27t+identify+the+CDN+for+domain%3A+${CDN.domain}&body=-+Domain%3A+%60${CDN.domain}%60%0D%0A-+CNAME%3A+%60${CDN.cname}%60" target="_blank">提交 Issue</a></p>`;
+                                }
+                            } else {
+                                CDN.renderOutput('alikunlun.com');
+                            }
+                        }
+                    })
+            },
+            renderOutput: (cdnCNAME) => {
+                let cdnData = CDN.data[cdnCNAME],
+                    html = `<p class="sk-mb-0">CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">CDN: <a href="${cdnData.link}" target="_blank" rel="external noreferrer nofollow noopenner">${cdnData.name}</a></p>`;
+
+                document.getElementById('output').innerHTML = html;
+            }
+        }
+        CDN.getData();
+    </script>
 </body>
 
 </html>
