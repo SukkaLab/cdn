@@ -328,6 +328,12 @@ dnsv1.com:
 tencdns.net:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+ksyuncdn.com:
+  name: 金山云 CDN
+  link: https://www.ksyun.com/post/product/CDN
+ks-cdn.com:
+  name: 金山云 CDN
+  link: https://www.ksyun.com/post/product/CDN
 netlify.com:
   name: Netlify
   link: https://www.netlify.com
