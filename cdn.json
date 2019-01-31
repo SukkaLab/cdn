@@ -1,0 +1,462 @@
+{
+  "15cdn.com": {
+    "name": "15CDN",
+    "link": "https://www.15cdn.com"
+  },
+  "cedexis.net": {
+    "name": "Cedexis GSLB",
+    "link": "https://www.cedexis.com/"
+  },
+  "cdxcn.cn": {
+    "name": "Cedexis GSLB (For China)",
+    "link": "https://www.cedexis.com/"
+  },
+  "qhcdn.com": {
+    "name": "360 云 CDN",
+    "link": "https://cloud.360.cn/doc?name=cdn"
+  },
+  "qihucdn.com": {
+    "name": "360 云 CDN",
+    "link": "https://cloud.360.cn/doc?name=cdn"
+  },
+  "360cdn.com": {
+    "name": "360 云 CDN",
+    "link": "https://cloud.360.cn/doc?name=cdn"
+  },
+  "360safedns.com": {
+    "name": "360 网站卫士",
+    "link": "https://wangzhan.360.com"
+  },
+  "360wzws.com": {
+    "name": "360 网站卫士",
+    "link": "https://wangzhan.360.com"
+  },
+  "akamaiedge.net": {
+    "name": "Akamai CDN",
+    "link": "https://www.akamai.com"
+  },
+  "edgekey.net": {
+    "name": "Akamai CDN",
+    "link": "https://www.akamai.com"
+  },
+  "cloudfront.net": {
+    "name": "AWS CloudFront",
+    "link": "https://aws.amazon.com/cn/cloudfront/"
+  },
+  "worldcdn.net": {
+    "name": "CDN.NET",
+    "link": "https://cdn.net"
+  },
+  "worldssl.net": {
+    "name": "CDN.NET / CDNSUN / ONAPP",
+    "link": "https://cdn.net"
+  },
+  "cdn77.org": {
+    "name": "CDN77",
+    "link": "https://www.cdn77.com/"
+  },
+  "cdnga.net": {
+    "name": "CDNetworks",
+    "link": "https://www.cdnetworks.com"
+  },
+  "akamaized.net": {
+    "name": "Akamai CDN",
+    "link": "https://www.akamai.com"
+  },
+  "126.net": {
+    "name": "网易云 CDN",
+    "link": "https://www.163yun.com/product/cdn"
+  },
+  "163jiasu.com": {
+    "name": "网易云 CDN",
+    "link": "https://www.163yun.com/product/cdn"
+  },
+  "amazonaws.com": {
+    "name": "AWS Cloud",
+    "link": "https://aws.amazon.com/cn/cloudfront/"
+  },
+  "cdn77.net": {
+    "name": "CDN77",
+    "link": "https://www.cdn77.com/"
+  },
+  "cdnify.io": {
+    "name": "CDNIFY",
+    "link": "https://cdnify.com"
+  },
+  "cdnsun.net": {
+    "name": "CDNSUN",
+    "link": "https://cdnsun.com"
+  },
+  "bdydns.com": {
+    "name": "百度云 CDN",
+    "link": "https://cloud.baidu.com/product/cdn.html"
+  },
+  "ccgslb.com.cn": {
+    "name": "蓝汛 CDN",
+    "link": "https://cn.chinacache.com/"
+  },
+  "chinacache.net": {
+    "name": "蓝汛 CDN",
+    "link": "https://cn.chinacache.com/"
+  },
+  "lxdns.com": {
+    "name": "蓝汛 CDN",
+    "link": "https://cn.chinacache.com/"
+  },
+  "cloudflare.net": {
+    "name": "Cloudflare",
+    "link": "https://www.cloudflare.com"
+  },
+  "akadns.net": {
+    "name": "Akamai CDN",
+    "link": "https://www.akamai.com"
+  },
+  "wscdns.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com"
+  },
+  "cdn20.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com"
+  },
+  "wsdvs.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com"
+  },
+  "wsglb0.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com"
+  },
+  "fastly.net": {
+    "name": "Fastly",
+    "link": "https://www.fastly.com/"
+  },
+  "hwcdn.net": {
+    "name": "Stackpath (原 Highwinds)",
+    "link": "https://www.stackpath.com/highwinds"
+  },
+  "incapdns.net": {
+    "name": "Incapsula CDN",
+    "link": "https://www.incapsula.com"
+  },
+  "kxcdn.com.": {
+    "name": "KeyCDN",
+    "link": "https://www.keycdn.com/"
+  },
+  "lswcdn.net": {
+    "name": "LeaseWeb CDN",
+    "link": "https://www.leaseweb.com/cdn"
+  },
+  "mwcloudcdn.com": {
+    "name": "QUANTIL (网宿)",
+    "link": "https://www.quantil.com/"
+  },
+  "azureedge.net": {
+    "name": "Microsoft Azure CDN",
+    "link": "https://azure.microsoft.com/en-us/services/cdn/"
+  },
+  "mschcdn.com": {
+    "name": "Microsoft Azure CDN",
+    "link": "https://azure.microsoft.com/en-us/services/cdn/"
+  },
+  "trafficmanager.net": {
+    "name": "Microsoft Azure Traffic Manager",
+    "link": "https://azure.microsoft.com/en-us/services/traffic-manager/"
+  },
+  "cloudapp.net": {
+    "name": "Microsoft Azure",
+    "link": "https://azure.microsoft.com"
+  },
+  "spdydns.com": {
+    "name": "云端智度融合 CDN",
+    "link": "https://www.isurecloud.net/index.html"
+  },
+  "chuangcdn.com": {
+    "name": "创世云融合 CDN",
+    "link": "https://www.chuangcache.com/index.html"
+  },
+  "jiashule.com": {
+    "name": "知道创宇云安全",
+    "link": "https://www.yunaq.com/jsl/"
+  },
+  "cdnhwc1.com": {
+    "name": "华为云 CDN",
+    "link": "https://www.huaweicloud.com/product/cdn.html"
+  },
+  "cdnhwc2.com": {
+    "name": "华为云 CDN",
+    "link": "https://www.huaweicloud.com/product/cdn.html"
+  },
+  "cdnhwc3.com": {
+    "name": "华为云 CDN",
+    "link": "https://www.huaweicloud.com/product/cdn.html"
+  },
+  "fastcdn.com": {
+    "name": "帝联科技",
+    "link": "http://www.dnion.com/"
+  },
+  "flxdns.com": {
+    "name": "帝联科技",
+    "link": "http://www.dnion.com/"
+  },
+  "dlgslb.cn": {
+    "name": "帝联科技",
+    "link": "http://www.dnion.com/"
+  },
+  "newdefend.cn": {
+    "name": "牛盾云安全",
+    "link": "https://www.newdefend.com"
+  },
+  "ffdns.net": {
+    "name": "CloudXNS",
+    "link": "https://www.cloudxns.net"
+  },
+  "aocdn.com": {
+    "name": "可靠云 CDN (贴图库)",
+    "link": "http://www.kekaoyun.com/"
+  },
+  "bsgslb.cn": {
+    "name": "白山云 CDN",
+    "link": "https://zh.baishancloud.com/"
+  },
+  "qingcdn.com": {
+    "name": "白山云 CDN",
+    "link": "https://zh.baishancloud.com/"
+  },
+  "bsclink.cn": {
+    "name": "白山云 CDN",
+    "link": "https://zh.baishancloud.com/"
+  },
+  "trpcdn.net": {
+    "name": "白山云 CDN",
+    "link": "https://zh.baishancloud.com/"
+  },
+  "anquan.io": {
+    "name": "牛盾云安全",
+    "link": "https://www.newdefend.com"
+  },
+  "cloudglb.com": {
+    "name": "快网 CDN",
+    "link": "http://www.fastweb.com.cn/"
+  },
+  "qingcache.com": {
+    "name": "青云 CDN",
+    "link": "https://www.qingcloud.com/products/cdn/"
+  },
+  "qingcloud.com": {
+    "name": "青云 CDN",
+    "link": "https://www.qingcloud.com/products/cdn/"
+  },
+  "msscdn.com": {
+    "name": "美团云 CDN",
+    "link": "https://www.mtyun.com/product/cdn"
+  },
+  "800cdn.com": {
+    "name": "西部数码",
+    "link": "https://www.west.cn"
+  },
+  "kunlunca.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "tbcache.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "aliyun-inc.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "aliyuncs.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "alikunlun.net": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "alikunlun.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "kunlungr.com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "aligaofang.com": {
+    "name": "阿里云盾高防",
+    "link": "https://www.aliyun.com/product/ddos"
+  },
+  "yundunddos.com": {
+    "name": "阿里云盾高防",
+    "link": "https://www.aliyun.com/product/ddos"
+  },
+  "kunlun(.*).com": {
+    "name": "阿里云 CDN",
+    "link": "https://www.aliyun.com/product/cdn"
+  },
+  "yunjiasu-cdn.net": {
+    "name": "百度云加速",
+    "link": "https://su.baidu.com"
+  },
+  "momentcdn.com": {
+    "name": "魔门云 CDN",
+    "link": "https://www.cachemoment.com"
+  },
+  "aicdn.com": {
+    "name": "又拍云",
+    "link": "https://www.upyun.com"
+  },
+  "qbox.me": {
+    "name": "七牛云",
+    "link": "https://www.qiniu.com"
+  },
+  "qiniu.com": {
+    "name": "七牛云",
+    "link": "https://www.qiniu.com"
+  },
+  "qiniudns.com": {
+    "name": "七牛云",
+    "link": "https://www.qiniu.com"
+  },
+  "jcloudcs.com": {
+    "name": "京东云 CDN",
+    "link": "https://www.jdcloud.com/cn/products/cdn"
+  },
+  "jdcdn.com": {
+    "name": "京东云 CDN",
+    "link": "https://www.jdcloud.com/cn/products/cdn"
+  },
+  "qianxun.com": {
+    "name": "京东云 CDN",
+    "link": "https://www.jdcloud.com/cn/products/cdn"
+  },
+  "jcloudlb.com": {
+    "name": "京东云 CDN",
+    "link": "https://www.jdcloud.com/cn/products/cdn"
+  },
+  "jcloud-cdn.com": {
+    "name": "京东云 CDN",
+    "link": "https://www.jdcloud.com/cn/products/cdn"
+  },
+  "maoyun.tv": {
+    "name": "猫云融合 CDN",
+    "link": "https://www.maoyun.tv"
+  },
+  "xgslb.net": {
+    "name": "WebLuker (蓝汛)",
+    "link": "http://www.webluker.com"
+  },
+  "ucloud.cn": {
+    "name": "UCloud CDN",
+    "link": "https://www.ucloud.cn/site/product/ucdn.html"
+  },
+  "ucloud.com.cn": {
+    "name": "UCloud CDN",
+    "link": "https://www.ucloud.cn/site/product/ucdn.html"
+  },
+  "zenlogic.net": {
+    "name": "Zenlayer CDN",
+    "link": "https://www.zenlayer.com"
+  },
+  "ogslb.com": {
+    "name": "Zenlayer CDN",
+    "link": "https://www.zenlayer.com"
+  },
+  "uxengine.net": {
+    "name": "Zenlayer CDN",
+    "link": "https://www.zenlayer.com"
+  },
+  "tan14.net": {
+    "name": "TAN14 CDN",
+    "link": "http://www.tan14.cn/"
+  },
+  "verycloud.cn": {
+    "name": "VeryCloud 云分发",
+    "link": "https://www.verycloud.cn/"
+  },
+  "verycdn.net": {
+    "name": "VeryCloud 云分发",
+    "link": "https://www.verycloud.cn/"
+  },
+  "xundayun.cn": {
+    "name": "SpeedyCloud CDN",
+    "link": "https://www.speedycloud.cn/zh/Products/CDN/CloudDistribution.html"
+  },
+  "xundayun.com": {
+    "name": "SpeedyCloud CDN",
+    "link": "https://www.speedycloud.cn/zh/Products/CDN/CloudDistribution.html"
+  },
+  "speedycloud.cc": {
+    "name": "SpeedyCloud CDN",
+    "link": "https://www.speedycloud.cn/zh/Products/CDN/CloudDistribution.html"
+  },
+  "mucdn.net": {
+    "name": "Verizon CDN (Edgecast)",
+    "link": "https://www.verizondigitalmedia.com/platform/edgecast-cdn/"
+  },
+  "alphacdn.net": {
+    "name": "Verizon CDN (Edgecast)",
+    "link": "https://www.verizondigitalmedia.com/platform/edgecast-cdn/"
+  },
+  "coding.io": {
+    "name": "Coding Pages",
+    "link": "https://coding.net/pages"
+  },
+  "coding.me": {
+    "name": "Coding Pages",
+    "link": "https://coding.net/pages"
+  },
+  "gitlab.io": {
+    "name": "GitLab Pages",
+    "link": "https://docs.gitlab.com/ee/user/project/pages/"
+  },
+  "github.io": {
+    "name": "GitHub Pages",
+    "link": "https://pages.github.com/"
+  },
+  "herokuapp.com": {
+    "name": "Heroku SaaS",
+    "link": "https://www.heroku.com"
+  },
+  "googleapis.com": {
+    "name": "Google Cloud Storage",
+    "link": "https://cloud.google.com/storage/"
+  },
+  "netdna-cdn.com": {
+    "name": "Stackpath (原 MaxCDN)",
+    "link": "https://www.stackpath.com/maxcdn/"
+  },
+  "cdntip.com": {
+    "name": "腾讯云 CDN",
+    "link": "https://cloud.tencent.com/product/cdn-scd"
+  },
+  "dnsv1.com": {
+    "name": "腾讯云 CDN",
+    "link": "https://cloud.tencent.com/product/cdn-scd"
+  },
+  "tencdns.net": {
+    "name": "腾讯云 CDN",
+    "link": "https://cloud.tencent.com/product/cdn-scd"
+  },
+  "ksyuncdn.com": {
+    "name": "金山云 CDN",
+    "link": "https://www.ksyun.com/post/product/CDN"
+  },
+  "ks-cdn.com": {
+    "name": "金山云 CDN",
+    "link": "https://www.ksyun.com/post/product/CDN"
+  },
+  "netlify.com": {
+    "name": "Netlify",
+    "link": "https://www.netlify.com"
+  },
+  "zeit.co": {
+    "name": "ZEIT Now",
+    "link": "https://zeit.co"
+  },
+  "zeit-cdn.net": {
+    "name": "ZEIT Now with Cloudflare Enterprise",
+    "link": "https://zeit.co"
+  }
+}
