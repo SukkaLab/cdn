@@ -20,6 +20,7 @@ let minifyHTML = () => {
             minifyCSS: true,
             collapseWhitespace: true
         }))
+        .pipe(htmlclean())
         .pipe(gulp.dest('dist'));
 }
 
