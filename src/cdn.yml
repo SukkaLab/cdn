@@ -52,8 +52,8 @@ akamaized.net:
 163jiasu.com:
   name: 网易云 CDN
   link: https://www.163yun.com/product/cdn
-AWS Cloud:
-  name: amazonaws.com
+amazonaws.com:
+  name: AWS Cloud
   link: https://aws.amazon.com/cn/cloudfront/
 cdn77.net:
   name: CDN77
