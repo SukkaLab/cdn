@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/ico" href="https://cdn.jsdelivr.net/npm/skx@0.0.1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
-    <title>CDN - Sukka's Lab</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/spectre.css@0.5.7,npm/spectre.css@0.5.7/dist/spectre-exp.min.css,npm/spectre.css@0.5.7/dist/spectre-icons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.2.1">
-</head>
-
-<body class="sk-py-5">
-    <div class="container">
-        <h1 class="h2 text-center sk-mt-8">CDN 服务商检测</h1>
-    </div>
-    <div class="container">
-        <div class="columns">
-            <div class="column col-sm-12 col-md-8 col-6 col-mx-auto">
-                <div class="card sk-shadow-2">
-                    <div class="card-body">
-                        <form id="form-cdn">
-                            <div class="form-group">
-                                <label class="form-label" for="input-domain">请输入域名</label>
-                                <div class="input-group">
-                                    <input class="form-input" id="input-domain" placeholder="mirrors.aliyun.com"
-                                        autocomplete="off" spellcheck="false" required>
-                                    <button id="btn-search" class="btn btn-primary" type="submit" disabled>提交</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div id="output" class="card-footer"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        const _get = (url) =>
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="shortcut icon" type="image/ico" href="https://cdn.jsdelivr.net/npm/skx@0.0.1"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui"><title>CDN - Sukka's Lab</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/spectre.css@0.5.7,npm/spectre.css@0.5.7/dist/spectre-exp.min.css,npm/spectre.css@0.5.7/dist/spectre-icons.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suka.css@0.2.1"></head><body class="sk-py-5"><div class="container"><h1 class="h2 text-center sk-mt-8">CDN 服务商检测</h1></div><div class="container"><div class="columns"><div class="column col-sm-12 col-md-8 col-6 col-mx-auto"><div class="card sk-shadow-2"><div class="card-body"><form id="form-cdn"><div class="form-group"><label class="form-label" for="input-domain">请输入域名</label><div class="input-group"><input class="form-input" id="input-domain" placeholder="mirrors.aliyun.com" autocomplete="off" spellcheck="false" required> <button id="btn-search" class="btn btn-primary" type="submit" disabled="disabled">提交</button></div></div></form></div><div id="output" class="card-footer"></div></div></div></div></div><script>const _get = (url) =>
             fetch(url, {
                 method: 'GET'
             }).then(resp => Promise.all([resp.ok, resp.status, resp.json(), resp.headers])
@@ -110,8 +72,4 @@
                 document.getElementById('output').innerHTML = html;
             }
         }
-        CDN.getData();
-    </script>
-</body>
-
-</html>
+        CDN.getData();</script></body></html>
