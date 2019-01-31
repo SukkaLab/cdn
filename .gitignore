@@ -1,3 +1,7 @@
 node_modules
 
 *.log
+
+dist
+
+src/cdn.json
