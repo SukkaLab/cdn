@@ -7,7 +7,6 @@ install:
   - yarn
 script:
   - gulp build
-  - cp -rf src/ dist
 cache:
   yarn: true
   directories:
