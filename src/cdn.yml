@@ -343,3 +343,6 @@ zeit.co:
 zeit-cdn.net:
   name: ZEIT Now with Cloudflare Enterprise
   link: https://zeit.co
+b-cdn.net:
+  name: Bunny CDN
+  link: https://bunnycdn.com/
