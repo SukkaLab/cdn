@@ -466,5 +466,9 @@
   "lsycdn.com": {
     "name": "蓝视云 CDN",
     "link": "https://cloud.lsy.cn/"
+  },
+  "scsdns.com": {
+    "name": "逸云科技云加速 CDN",
+    "link": "http://www.exclouds.com/navPage/wise"
   }
 }
