@@ -32,6 +32,11 @@
                             CDN.domain = document.getElementById('input-domain').value;
                             CDN.getCDN(CDN.domain);
                         });
+                        if (document.location.pathname !== '/cdn/') {
+                            CDN.domain = document.location.pathname.replace('/cdn/', '')
+                            document.getElementById('input-domain').value = CDN.domain
+                            CDN.getCDN(CDN.domain);
+                        }
                     })
             },
             getCDN: (domain) => {
