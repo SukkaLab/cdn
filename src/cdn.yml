@@ -190,9 +190,6 @@ msscdn.com:
 800cdn.com:
   name: 西部数码
   link: https://www.west.cn
-kunlunca.com:
-  name: 阿里云 CDN
-  link: https://www.aliyun.com/product/cdn
 tbcache.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
@@ -208,7 +205,7 @@ alikunlun.net:
 alikunlun.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
-kunlungr.com:
+alicdn.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
 aligaofang.com:
@@ -283,6 +280,9 @@ verycloud.cn:
 verycdn.net:
   name: VeryCloud 云分发
   link: https://www.verycloud.cn/
+verygslb.com:
+  name: VeryCloud 云分发
+  link: https://www.verycloud.cn/
 xundayun.cn:
   name: SpeedyCloud CDN
   link: https://www.speedycloud.cn/zh/Products/CDN/CloudDistribution.html
@@ -343,3 +343,12 @@ zeit.co:
 zeit-cdn.net:
   name: ZEIT Now with Cloudflare Enterprise
   link: https://zeit.co
+b-cdn.net:
+  name: Bunny CDN
+  link: https://bunnycdn.com/
+lsycdn.com:
+  name: 蓝视云 CDN
+  link: https://cloud.lsy.cn/
+scsdns.com:
+  name: 逸云科技云加速 CDN
+  link: http://www.exclouds.com/navPage/wise
