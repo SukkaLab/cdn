@@ -899,7 +899,7 @@ gulp-cli@^2.0.0:
     v8flags "^3.0.1"
     yargs "^7.1.0"
 
-gulp-htmlclean@^2.7.22:
+gulp-htmlclean@2.7.22:
   version "2.7.22"
   resolved "https://registry.yarnpkg.com/gulp-htmlclean/-/gulp-htmlclean-2.7.22.tgz#a7811de8d1221122ae60d660ca0170b65b698dde"
   integrity sha1-p4Ed6NEiESKuYNZgygFwtltpjd4=
@@ -908,7 +908,7 @@ gulp-htmlclean@^2.7.22:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-htmlmin@^5.0.1:
+gulp-htmlmin@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/gulp-htmlmin/-/gulp-htmlmin-5.0.1.tgz#90fc5e8ad0425a9e86d5d521427184e7276365e7"
   integrity sha512-ASlyDPZOSKjHYUifYV0rf9JPDflN9IRIb8lw2vRqtYMC4ljU3zAmnnaVXwFQ3H+CfXxZSUesZ2x7jrnPJu93jA==
@@ -917,7 +917,7 @@ gulp-htmlmin@^5.0.1:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-yaml@^2.0.2:
+gulp-yaml@2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gulp-yaml/-/gulp-yaml-2.0.2.tgz#a670c4f72c8c1e25e2143c7e15c1b9425ec06539"
   integrity sha512-XMSsJBbntqNOUkqMRgZ7kwowZOF7+kVT66Rvhdrbq74wg7O8WdcIR+QXDzH7GnndU/SHrihvHeZIcVyCEs2LsA==
@@ -929,7 +929,7 @@ gulp-yaml@^2.0.2:
     replace-ext "^1.0.0"
     through2 "^2.0.0"
 
-gulp@^4.0.0:
+gulp@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-4.0.0.tgz#95766c601dade4a77ed3e7b2b6dc03881b596366"
   integrity sha1-lXZsYB2t5Kd+0+eyttwDiBtZY2Y=
