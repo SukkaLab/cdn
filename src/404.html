@@ -77,7 +77,7 @@
                         }
                     })
             },
-            getCnCDN: (domain) => {
+            getCDN: (domain) => {
                 _get(`https://api.skk.moe/network/dns/?type=CNAME&name=${domain}`)
                     .then((resp) => {
                         console.log(resp.data);
@@ -107,8 +107,7 @@
                             }
                         }
                     })
-            },
-            getHwCDN: (domain) => {
+
                 _get(`https://dns.rubyfish.cn/dns-query?type=CNAME&name=${domain}`)
                     .then((resp) => {
                         console.log(resp.data);
