@@ -72,7 +72,7 @@
                         });
                         if (document.location.pathname !== '/cdn/') {
                             CDN.domain = document.location.pathname.replace('/cdn/', '')
-                            document.getElementById('input-domain').value = CDN.domain
+                            document.getElementById('input-domain').value = CDN.domain;
                             CDN.getCDN(CDN.domain);
                         }
                     })
@@ -100,7 +100,7 @@
                                 } else if (CDN.data[cnameLast2]) {
                                     CDN.renderOutput(cnameLast2, 'CN');
                                 } else {
-                                    document.getElementById('outputCN').innerHTML = `<p class="sk-mb-0">CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">未知的 CDN。你可以在 GitHub 上 <a href="https://github.com/SukkaLab/cdn/issues/new/?title=Can%27t+identify+the+CDN+for+domain%3A+${CDN.domain}&body=-+Domain%3A+%60${CDN.domain}%60%0D%0A-+CNAME%3A+%60${CDN.cname}%60" target="_blank">提交 Issue</a></p>`;
+                                    document.getElementById('outputCN').innerHTML = `<p class="sk-mb-0">HW CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">未知的 CDN。你可以在 GitHub 上 <a href="https://github.com/SukkaLab/cdn/issues/new/?title=Can%27t+identify+the+CDN+for+domain%3A+${CDN.domain}&body=-+Domain%3A+%60${CDN.domain}%60%0D%0A-+CNAME%3A+%60${CDN.cname}%60" target="_blank">提交 Issue</a></p>`;
                                 }
                             } else {
                                 CDN.renderOutput('alikunlun.com', 'CN');
@@ -130,7 +130,7 @@
                                 } else if (CDN.data[cnameLast2]) {
                                     CDN.renderOutput(cnameLast2, 'HW');
                                 } else {
-                                    document.getElementById('outputHW').innerHTML = `<p class="sk-mb-0">CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">未知的 CDN。你可以在 GitHub 上 <a href="https://github.com/SukkaLab/cdn/issues/new/?title=Can%27t+identify+the+CDN+for+domain%3A+${CDN.domain}&body=-+Domain%3A+%60${CDN.domain}%60%0D%0A-+CNAME%3A+%60${CDN.cname}%60" target="_blank">提交 Issue</a></p>`;
+                                    document.getElementById('outputHW').innerHTML = `<p class="sk-mb-0">CN CNAME: </p><pre class="code sk-my-2"><code class="sk-p-4">${CDN.cname}</code></pre><p class="sk-mb-0 sk-mt-4">未知的 CDN。你可以在 GitHub 上 <a href="https://github.com/SukkaLab/cdn/issues/new/?title=Can%27t+identify+the+CDN+for+domain%3A+${CDN.domain}&body=-+Domain%3A+%60${CDN.domain}%60%0D%0A-+CNAME%3A+%60${CDN.cname}%60" target="_blank">提交 Issue</a></p>`;
                                 }
                             } else {
                                 CDN.renderOutput('alikunlun.com', 'HW');
