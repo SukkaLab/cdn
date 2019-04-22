@@ -474,5 +474,9 @@
   "scsdns.com": {
     "name": "逸云科技云加速 CDN",
     "link": "http://www.exclouds.com/navPage/wise"
+  },
+  "quic.cloud": {
+    "name": "QUIC.Cloud",
+    "link": "https://quic.cloud/"
   }
 }
