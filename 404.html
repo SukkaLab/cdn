@@ -45,7 +45,7 @@
                         console.log(resp.data);
 
                         if (!resp.data.Answer) {
-                            document.getElementById('output').innerHTML = `<p class="sk-mb-0">没有找到 CNAME 记录</p>`;
+                            document.getElementById('outputHW').innerHTML = `<p class="sk-mb-0">没有找到 CNAME 记录</p>`;
                         } else {
                             let cname = resp.data.Answer[0].data,
                                 cnameSplit = cname.split('.'),
@@ -75,7 +75,7 @@
                         console.log(resp.data);
 
                         if (!resp.data.Answer) {
-                            document.getElementById('outputHW').innerHTML = `<p class="sk-mb-0">没有找到 CNAME 记录</p>`;
+                            document.getElementById('outputCN').innerHTML = `<p class="sk-mb-0">没有找到 CNAME 记录</p>`;
                         } else {
                             let cname = resp.data.Answer[0].data,
                                 cnameSplit = cname.split('.'),
