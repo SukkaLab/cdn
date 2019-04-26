@@ -115,6 +115,9 @@ lswcdn.net:
 mwcloudcdn.com:
   name: QUANTIL (网宿)
   link: https://www.quantil.com/
+mwcname.com:
+  name: QUANTIL (网宿)
+  link: https://www.quantil.com/
 azureedge.net:
   name: Microsoft Azure CDN
   link: https://azure.microsoft.com/en-us/services/cdn/
