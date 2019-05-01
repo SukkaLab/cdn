@@ -361,3 +361,7 @@ scsdns.com:
 quic.cloud:
   name: QUIC.Cloud
   link: https://quic.cloud/
+flexbalancer.net:
+  name: "FlexBalancer - Smart Traffic Routing"
+  link: https://perfops.net/flexbalancer
+
