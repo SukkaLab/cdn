@@ -927,13 +927,13 @@ gulp-htmlmin@5.0.1:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-yaml@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/gulp-yaml/-/gulp-yaml-2.0.3.tgz#5fbc5394cf613fbc2d5015ed11462443d8fb61f0"
-  integrity sha512-DX+Ban8PAJL+cNY43gOYB1UvUgODYuWJECdx9RJj7ahTjKMVc+5IZKpXmWtMkXeEvhWokHCmRXGYBuUB3fbzIg==
+gulp-yaml@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/gulp-yaml/-/gulp-yaml-2.0.4.tgz#86569e2becc9f5dfc95dc92db5a71a237f4b6ab4"
+  integrity sha512-S/9Ib8PO+jGkCvWDwBUkmFkeW7QM0pp4PO8NNrMEfWo5Sk30P+KqpyXc4055L/vOX326T/b9MhM4nw5EenyX9g==
   dependencies:
     bufferstreams "^2.0.1"
-    js-yaml "^3.12.1"
+    js-yaml "^3.13.1"
     object-assign "^4.1.1"
     plugin-error "^1.0.1"
     replace-ext "^1.0.0"
@@ -1270,10 +1270,10 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-js-yaml@^3.12.1:
-  version "3.12.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
-  integrity sha512-QHn/Lh/7HhZ/Twc7vJYQTkjuCa0kaCcDcjK5Zlk2rvnUpy7DxMJ23+Jc2dcyvltwQVg1nygAVlB2oRDFHoRS5Q==
+js-yaml@^3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
