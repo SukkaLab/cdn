@@ -364,4 +364,6 @@ quic.cloud:
 flexbalancer.net:
   name: "FlexBalancer - Smart Traffic Routing"
   link: https://perfops.net/flexbalancer
-
+gcdn.co:
+  name: "G - Core Labs"
+  link: https://gcorelabs.com/cdn/
