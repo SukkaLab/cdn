@@ -22,7 +22,13 @@ qihucdn.com:
 360wzws.com:
   name: 360 网站卫士
   link: https://wangzhan.360.com
+akamai.net:
+  name: Akamai CDN
+  link: https://www.akamai.com
 akamaiedge.net:
+  name: Akamai CDN
+  link: https://www.akamai.com
+akamaitechnologies.com:
   name: Akamai CDN
   link: https://www.akamai.com
 edgekey.net:
@@ -40,7 +46,19 @@ worldssl.net:
 cdn77.org:
   name: CDN77
   link: https://www.cdn77.com/
+panthercdn.com:
+  name: CDNetworks
+  link: https://www.cdnetworks.com
 cdnga.net:
+  name: CDNetworks
+  link: https://www.cdnetworks.com
+cdngc.net:
+  name: CDNetworks
+  link: https://www.cdnetworks.com
+gccdn.net:
+  name: CDNetworks
+  link: https://www.cdnetworks.com
+gccdn.cn:
   name: CDNetworks
   link: https://www.cdnetworks.com
 akamaized.net:
@@ -70,6 +88,18 @@ bdydns.com:
 ccgslb.com.cn:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
+ccgslb.com:
+  name: 蓝汛 CDN
+  link: https://cn.chinacache.com/
+ccgslb.cn:
+  name: 蓝汛 CDN
+  link: https://cn.chinacache.com/
+c3cache.net:
+  name: 蓝汛 CDN
+  link: https://cn.chinacache.com/
+c3dns.net:
+  name: 蓝汛 CDN
+  link: https://cn.chinacache.com/
 chinacache.net:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
@@ -94,10 +124,16 @@ wsdvs.com:
 wsglb0.com:
   name: 网宿 CDN
   link: https://www.wangsu.com
+speedcdns.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
 wsssec.com:
   name: 网宿 WAF CDN
   link: https://www.wangsu.com
 fastly.net:
+  name: Fastly
+  link: https://www.fastly.com
+fastlylb.net:
   name: Fastly
   link: https://www.fastly.com/
 hwcdn.net:
@@ -119,6 +155,9 @@ mwcname.com:
   name: QUANTIL (网宿)
   link: https://www.quantil.com/
 azureedge.net:
+  name: Microsoft Azure CDN
+  link: https://azure.microsoft.com/en-us/services/cdn/
+msecnd.net:
   name: Microsoft Azure CDN
   link: https://azure.microsoft.com/en-us/services/cdn/
 mschcdn.com:
@@ -304,6 +343,12 @@ mucdn.net:
 alphacdn.net:
   name: Verizon CDN (Edgecast)
   link: https://www.verizondigitalmedia.com/platform/edgecast-cdn/
+systemcdn.net:
+  name: Verizon CDN (Edgecast)
+  link: https://www.verizondigitalmedia.com/platform/edgecast-cdn/
+edgecastcdn.net:
+  name: Verizon CDN (Edgecast)
+  link: https://www.verizondigitalmedia.com/platform/edgecast-cdn/
 coding.io:
   name: Coding Pages
   link: https://coding.net/pages
@@ -322,7 +367,13 @@ herokuapp.com:
 googleapis.com:
   name: Google Cloud Storage
   link: https://cloud.google.com/storage/
+netdna.com:
+  name: Stackpath (原 MaxCDN)
+  link: https://www.stackpath.com/maxcdn/
 netdna-cdn.com:
+  name: Stackpath (原 MaxCDN)
+  link: https://www.stackpath.com/maxcdn/
+netdna-ssl.com:
   name: Stackpath (原 MaxCDN)
   link: https://www.stackpath.com/maxcdn/
 cdntip.com:
@@ -344,10 +395,10 @@ netlify.com:
   name: Netlify
   link: https://www.netlify.com
 zeit.co:
-  name: ZEIT Now
+  name: ZEIT Now Smart CDN
   link: https://zeit.co
 zeit-cdn.net:
-  name: ZEIT Now with Cloudflare Enterprise
+  name: ZEIT Now Smart CDN
   link: https://zeit.co
 b-cdn.net:
   name: Bunny CDN
@@ -373,3 +424,60 @@ sangfordns.com:
 stspg-customer.com:
   name: "StatusPage.io"
   link: https://www.statuspage.io
+turbobytes.net:
+  name: "TurboBytes Multi-CDN"
+  link: https://www.turbobytes.com
+turbobytes-cdn.com:
+  name: "TurboBytes Multi-CDN"
+  link: https://www.turbobytes.com
+att-dsa.net:
+  name: "AT&T Content Delivery Network"
+  link: https://www.business.att.com/products/cdn.html
+azioncdn.net:
+  name: "Azion Tech | Edge Computing PLatform"
+  link: https://www.azion.com
+belugacdn.com:
+  name: "BelugaCDN"
+  link: https://www.belugacdn.com
+cachefly.net:
+  name: "CacheFly CDN"
+  link: https://www.cachefly.com/
+inscname.net:
+  name: Instart CDN
+  link: https://www.instart.com/products/web-performance/cdn
+insnw.net:
+  name: Instart CDN
+  link: https://www.instart.com/products/web-performance/cdn
+internapcdn.net:
+  name: Internap CDN
+  link: https://www.inap.com/network/content-delivery-network
+footprint.net:
+  name: CenturyLink CDN (原 Level 3)
+  link: https://www.centurylink.com/business/networking/cdn.html
+llnwd.net:
+  name: Limelight Network
+  link: https://www.limelight.com
+lldns.net:
+  name: Limelight Network
+  link: https://www.limelight.com
+stackpathdns.com:
+  name: Stackapath CDN
+  link: https://www.stackpath.com
+mncdn.com:
+  name: Medianova
+  link: https://www.medianova.com
+rncdn1.com:
+  name: Relected Networks
+  link: https://reflected.net/globalcdn
+simplecdn.net:
+  name: Relected Networks
+  link: https://reflected.net/globalcdn
+swiftserve.com:
+  name: Conversant - SwiftServe CDN
+  link: https://reflected.net/globalcdn
+bitgravity.com:
+  name: Tata communications CDN
+  link: https://cdn.tatacommunications.com
+zenedge.net:
+  name: Oracle Dyn Web Application Security suite (原 Zenedge CDN)
+  link: https://cdn.tatacommunications.com
