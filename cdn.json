@@ -15,6 +15,10 @@
     "name": "360 云 CDN",
     "link": "https://cloud.360.cn/doc?name=cdn"
   },
+  "qh-cdn.com": {
+    "name": "360 云 CDN",
+    "link": "https://cloud.360.cn/doc?name=cdn"
+  },
   "qihucdn.com": {
     "name": "360 云 CDN",
     "link": "https://cloud.360.cn/doc?name=cdn"
@@ -616,7 +620,11 @@
     "link": "https://www.limelight.com"
   },
   "stackpathdns.com": {
-    "name": "Stackapath CDN",
+    "name": "Stackpath CDN",
+    "link": "https://www.stackpath.com"
+  },
+  "stackpathcdn.com": {
+    "name": "Stackpath CDN",
     "link": "https://www.stackpath.com"
   },
   "mncdn.com": {
