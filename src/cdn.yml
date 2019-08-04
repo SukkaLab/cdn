@@ -166,6 +166,9 @@ msecnd.net:
 mschcdn.com:
   name: Microsoft Azure CDN
   link: https://azure.microsoft.com/en-us/services/cdn/
+v0cdn.net:
+  name: Microsoft Azure CDN
+  link: https://azure.microsoft.com/en-us/services/cdn/
 trafficmanager.net:
   name: Microsoft Azure Traffic Manager
   link: https://azure.microsoft.com/en-us/services/traffic-manager/
