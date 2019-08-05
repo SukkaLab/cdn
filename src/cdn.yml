@@ -490,3 +490,9 @@ bitgravity.com:
 zenedge.net:
   name: Oracle Dyn Web Application Security suite (原 Zenedge CDN)
   link: https://cdn.tatacommunications.com
+hdslb.net:
+  name: Bilibili 高可用负载均衡
+  link: https://github.com/bilibili/overlord
+hdslb.com:
+  name: Bilibili 高可用地域负载均衡
+  link: https://github.com/bilibili/overlord
