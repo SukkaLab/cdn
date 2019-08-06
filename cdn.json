@@ -662,5 +662,13 @@
   "hdslb.com": {
     "name": "Bilibili 高可用地域负载均衡",
     "link": "https://github.com/bilibili/overlord"
+  },
+  "xwaf.cn": {
+    "name": "极御云安全（浙江壹云云计算有限公司）",
+    "link": "https://www.stopddos.cn"
+  },
+  "shifen.com": {
+    "name": "百度旗下业务地域负载均衡系统",
+    "link": "https://www.baidu.com"
   }
 }
