@@ -8,23 +8,23 @@ cdxcn.cn:
   name: Cedexis GSLB (For China)
   link: https://www.cedexis.com/
 qhcdn.com:
-  name: 360 云 CDN
+  name: 360 云 CDN (由奇安信运营)
   link: https://cloud.360.cn/doc?name=cdn
 qh-cdn.com:
-  name: 360 云 CDN
+  name: 360 云 CDN (由奇虎 360 运营)
   link: https://cloud.360.cn/doc?name=cdn
 qihucdn.com:
-  name: 360 云 CDN
+  name: 360 云 CDN (由奇虎 360 运营)
   link: https://cloud.360.cn/doc?name=cdn
 360cdn.com:
-  name: 360 云 CDN
+  name: 360 云 CDN (由奇虎 360 运营)
   link: https://cloud.360.cn/doc?name=cdn
 360safedns.com:
-  name: 360 网站卫士
-  link: https://wangzhan.360.com
+  name: 奇安信网站卫士
+  link: https://wangzhan.qianxin.com
 360wzws.com:
-  name: 360 网站卫士
-  link: https://wangzhan.360.com
+  name: 奇安信网站卫士
+  link: https://wangzhan.qianxin.com
 akamai.net:
   name: Akamai CDN
   link: https://www.akamai.com
