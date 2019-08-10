@@ -725,7 +725,10 @@ ucloudgda.com:
   name: UCloud 罗马 Rome 全球网络加速
   link: https://www.ucloud.cn/site/product/rome.html
 google.com:
-  name: Google Web 业务地域负载均衡系统
+  name: Google Web 业务
+  link: https://lab.skk.moe/cdn
+1e100.net:
+  name: Google Web 业务
   link: https://lab.skk.moe/cdn
 ncname.com:
   name: NodeCache
