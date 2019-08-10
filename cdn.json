@@ -791,6 +791,18 @@
     "name": "新浪静态域名",
     "link": "https://lab.skk.moe/cdn"
   },
+  "tencent-cloud.net": {
+    "name": "腾讯旗下业务地域负载均衡系统",
+    "link": "https://lab.skk.moe/cdn"
+  },
+  "qq.com": {
+    "name": "腾讯旗下业务地域负载均衡系统",
+    "link": "https://lab.skk.moe/cdn"
+  },
+  "elemecdn.com": {
+    "name": "饿了么静态域名与地域负载均衡",
+    "link": "https://lab.skk.moe/cdn"
+  },
   "sinaedge.com": {
     "name": "新浪科技融合CDN负载均衡",
     "link": "https://lab.skk.moe/cdn"
@@ -954,6 +966,10 @@
   "ucloudgda.com": {
     "name": "UCloud 罗马 Rome 全球网络加速",
     "link": "https://www.ucloud.cn/site/product/rome.html"
+  },
+  "google.com": {
+    "name": "Google Web 业务地域负载均衡系统",
+    "link": "https://lab.skk.moe/cdn"
   },
   "ncname.com": {
     "name": "NodeCache",
