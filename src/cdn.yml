@@ -1,5 +1,8 @@
 15cdn.com:
-  name: 15CDN
+  name: 腾正安全加速（原 15CDN）
+  link: https://www.15cdn.com
+tzcdn.cn:
+  name: 腾正安全加速（原 15CDN）
   link: https://www.15cdn.com
 cedexis.net:
   name: Cedexis GSLB
@@ -37,11 +40,23 @@ akamai.net:
 akamaiedge.net:
   name: Akamai CDN
   link: https://www.akamai.com
+ytcdn.net:
+  name: Akamai CDN
+  link: https://www.akamai.com
+edgesuite.net:
+  name: Akamai CDN
+  link: https://www.akamai.com
+akamaitech.net:
+  name: Akamai CDN
+  link: https://www.akamai.com
 akamaitechnologies.com:
   name: Akamai CDN
   link: https://www.akamai.com
 edgekey.net:
   name: Akamai CDN
+  link: https://www.akamai.com
+tl88.net:
+  name: 易通锐进（Akamai 中国）由网宿承接
   link: https://www.akamai.com
 cloudfront.net:
   name: AWS CloudFront
@@ -97,6 +112,9 @@ bdydns.com:
 ccgslb.com.cn:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
+ccgslb.net:
+  name: 蓝汛 CDN
+  link: https://cn.chinacache.com/
 ccgslb.com:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
@@ -121,6 +139,18 @@ cloudflare.net:
 akadns.net:
   name: Akamai CDN
   link: https://www.akamai.com
+chinanetcenter.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
+customcdn.com.cn:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
+customcdn.cn:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
+51cdn.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com
 wscdns.com:
   name: 网宿 CDN
   link: https://www.wangsu.com
@@ -181,15 +211,21 @@ trafficmanager.net:
 cloudapp.net:
   name: Microsoft Azure
   link: https://azure.microsoft.com
+chinacloudsites.cn:
+  name: 世纪互联旗下上海蓝云（承载 Azure 中国）
+  link: https://www.21vbluecloud.com/
 spdydns.com:
   name: 云端智度融合 CDN
   link: https://www.isurecloud.net/index.html
-chuangcdn.com:
-  name: 创世云融合 CDN
-  link: https://www.chuangcache.com/index.html
 jiashule.com:
-  name: 知道创宇云安全
+  name: 知道创宇云安全加速乐CDN
   link: https://www.yunaq.com/jsl/
+365cyd.cn:
+  name: 知道创宇云安全创宇盾（政务专用）
+  link: https://www.yunaq.com/cyd/
+huaweicloud.com:
+  name: 华为云WAF高防云盾
+  link: https://www.huaweicloud.com/product/aad.html
 cdnhwc1.com:
   name: 华为云 CDN
   link: https://www.huaweicloud.com/product/cdn.html
@@ -199,6 +235,18 @@ cdnhwc2.com:
 cdnhwc3.com:
   name: 华为云 CDN
   link: https://www.huaweicloud.com/product/cdn.html
+dnion.com:
+  name: 帝联科技
+  link: http://www.dnion.com/
+ewcache.com:
+  name: 帝联科技
+  link: http://www.dnion.com/
+globalcdn.cn:
+  name: 帝联科技
+  link: http://www.dnion.com/
+tlgslb.com:
+  name: 帝联科技
+  link: http://www.dnion.com/
 fastcdn.com:
   name: 帝联科技
   link: http://www.dnion.com/
@@ -233,6 +281,30 @@ anquan.io:
   name: 牛盾云安全
   link: https://www.newdefend.com
 cloudglb.com:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+fastweb.com:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+fastwebcdn.com:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+cloudcdn.net:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+fwcdn.com:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+fwdns.net:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+hadns.net:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+hacdn.net:
+  name: 快网 CDN
+  link: http://www.fastweb.com.cn/
+cachecn.com:
   name: 快网 CDN
   link: http://www.fastweb.com.cn/
 qingcache.com:
@@ -272,6 +344,9 @@ yundunddos.com:
   name: 阿里云盾高防
   link: https://www.aliyun.com/product/ddos
 kunlun(.*).com:
+  name: 阿里云 CDN
+  link: https://www.aliyun.com/product/cdn
+cdngslb.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
 yunjiasu-cdn.net:
@@ -317,6 +392,9 @@ ucloud.cn:
   name: UCloud CDN
   link: https://www.ucloud.cn/site/product/ucdn.html
 ucloud.com.cn:
+  name: UCloud CDN
+  link: https://www.ucloud.cn/site/product/ucdn.html
+cdndo.com:
   name: UCloud CDN
   link: https://www.ucloud.cn/site/product/ucdn.html
 zenlogic.net:
@@ -469,6 +547,9 @@ footprint.net:
 llnwd.net:
   name: Limelight Network
   link: https://www.limelight.com
+unud.net:
+  name: Limelight Network
+  link: https://www.limelight.com
 lldns.net:
   name: Limelight Network
   link: https://www.limelight.com
@@ -507,4 +588,130 @@ xwaf.cn:
   link: https://www.stopddos.cn
 shifen.com:
   name: 百度旗下业务地域负载均衡系统
-  link: https://www.baidu.com
+  link: https://lab.skk.moe/cdn
+sinajs.cn:
+  name: 新浪静态域名
+  link: https://lab.skk.moe/cdn
+sinaedge.com:
+  name: 新浪科技融合CDN负载均衡
+  link: https://lab.skk.moe/cdn
+websitecname.cn:
+  name: 美橙互联旗下建站之星
+  link: https://www.sitestar.cn
+cdncenter.cn:
+  name: 美橙互联CDN
+  link: https://www.cndns.com
+vhostgo.com:
+  name: 西部数码虚拟主机
+  link: https://www.west.cn
+jsd.cc:
+  name: 上海云盾YUNDUN
+  link: https://www.yundun.com
+powercdn.cn:
+  name: 动力在线CDN
+  link: http://www.powercdn.com
+21vokglb.cn:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+21vianet.com.cn:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+21okglb.cn:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+21speedcdn.com:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+21cvcdn.com:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+okcdn.com:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+okglb.com:
+  name: 世纪互联云快线业务
+  link: https://www.21vianet.com
+cdnetworks.net:
+  name: 北京同兴万点网络技术
+  link: http://www.txnetworks.cn/
+txnetworks.cn:
+  name: 北京同兴万点网络技术
+  link: http://www.txnetworks.cn/
+cdnnetworks.com:
+  name: 北京同兴万点网络技术
+  link: http://www.txnetworks.cn/
+txcdn.cn:
+  name: 北京同兴万点网络技术
+  link: http://www.txnetworks.cn/
+cdnunion.net:
+  name: 宝腾互联旗下上海万根网络（CDN 联盟）
+  link: http://www.cdnunion.com
+cdnunion.com:
+  name: 宝腾互联旗下上海万根网络（CDN 联盟）
+  link: http://www.cdnunion.com
+mygslb.com:
+  name: 宝腾互联旗下上海万根网络（YaoCDN）
+  link: http://www.vangen.cn
+cdnudns.com:
+  name: 宝腾互联旗下上海万根网络（YaoCDN）
+  link: http://www.vangen.cn
+sprycdn.com:
+  name: 宝腾互联旗下上海万根网络（YaoCDN）
+  link: http://www.vangen.cn
+chuangcdn.com:
+  name: 创世云融合 CDN
+  link: https://www.chuangcache.com/index.html
+aocde.com:
+  name: 创世云融合 CDN
+  link: https://www.chuangcache.com
+ctxcdn.cn:
+  name: 中国电信天翼云CDN
+  link: https://www.ctyun.cn/product2/#/product/10027560
+yfcdn.net:
+  name: 云帆加速CDN
+  link: https://www.yfcloud.com
+mmycdn.cn:
+  name: 蛮蛮云 CDN（中联利信）
+  link: https://www.chinamaincloud.com/cloudDispatch.html
+chinamaincloud.com:
+  name: 蛮蛮云 CDN（中联利信）
+  link: https://www.chinamaincloud.com/cloudDispatch.html
+cnispgroup.com:
+  name: 中联数据（中联利信）
+  link: http://www.cnispgroup.com/
+cdnle.com:
+  name: 新乐视云联（原乐视云）CDN
+  link: http://www.lecloud.com/zh-cn
+gosuncdn.com:
+  name: 高升控股CDN借宿
+  link: http://www.gosun.com
+mmtrixopt.com:
+  name: mmTrix性能魔方（高升控股旗下）
+  link: http://www.mmtrix.com
+cloudfence.cn:
+  name: 蓝盾云CDN
+  link: https://www.cloudfence.cn/#/cloudWeb/yaq/yaqyfx
+ngaagslb.cn:
+  name: 新流云（新流万联）
+  link: https://www.ngaa.com.cn
+p2cdn.com:
+  name: 星域云P2P CDN
+  link: https://www.xycloud.com
+00cdn.com:
+  name: 星域云P2P CDN
+  link: https://www.xycloud.com
+sankuai.com:
+  name: 美团云（三快科技）负载均衡
+  link: https://www.mtyun.com
+lccdn.org:
+  name: 领智云 CDN（杭州领智云画）
+  link: http://www.linkingcloud.com
+nscloudwaf.com:
+  name: 绿盟云 WAF
+  link: https://cloud.nsfocus.com
+2cname.com:
+  name: 网堤安全
+  link: https://www.ddos.com
+ucloudgda.com:
+  name: UCloud 罗马 Rome 全球网络加速
+  link: https://www.ucloud.cn/site/product/rome.html
