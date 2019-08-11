@@ -733,3 +733,6 @@ google.com:
 ncname.com:
   name: NodeCache
   link: https://www.nodecache.com
+alipaydns.com:
+  name: 蚂蚁金服旗下业务地域负载均衡系统
+  link: https://lab.skk.moe/cdn/
