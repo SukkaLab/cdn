@@ -223,6 +223,9 @@ spdydns.com:
 jiashule.com:
   name: 知道创宇云安全加速乐CDN
   link: https://www.yunaq.com/jsl/
+jiasule.org:
+  name: 知道创宇云安全加速乐CDN
+  link: https://www.yunaq.com/jsl/
 365cyd.cn:
   name: 知道创宇云安全创宇盾（政务专用）
   link: https://www.yunaq.com/cyd/
@@ -607,6 +610,12 @@ elemecdn.com:
 sinaedge.com:
   name: 新浪科技融合CDN负载均衡
   link: https://lab.skk.moe/cdn
+sinacdn.com:
+  name: 新浪云 CDN
+  link: https://www.sinacloud.com/doc/sae/php/cdn.html
+sinasws.com:
+  name: 新浪云 CDN
+  link: https://www.sinacloud.com/doc/sae/php/cdn.html
 websitecname.cn:
   name: 美橙互联旗下建站之星
   link: https://www.sitestar.cn
