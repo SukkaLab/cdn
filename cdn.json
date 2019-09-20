@@ -223,6 +223,10 @@
     "name": "网宿 CDN",
     "link": "https://www.wangsu.com"
   },
+  "wtxcdn.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com"
+  },
   "wsssec.com": {
     "name": "网宿 WAF CDN",
     "link": "https://www.wangsu.com"
@@ -292,6 +296,10 @@
     "link": "https://www.isurecloud.net/index.html"
   },
   "jiashule.com": {
+    "name": "知道创宇云安全加速乐CDN",
+    "link": "https://www.yunaq.com/jsl/"
+  },
+  "jiasule.org": {
     "name": "知道创宇云安全加速乐CDN",
     "link": "https://www.yunaq.com/jsl/"
   },
@@ -806,6 +814,14 @@
   "sinaedge.com": {
     "name": "新浪科技融合CDN负载均衡",
     "link": "https://lab.skk.moe/cdn"
+  },
+  "sinacdn.com": {
+    "name": "新浪云 CDN",
+    "link": "https://www.sinacloud.com/doc/sae/php/cdn.html"
+  },
+  "sinasws.com": {
+    "name": "新浪云 CDN",
+    "link": "https://www.sinacloud.com/doc/sae/php/cdn.html"
   },
   "websitecname.cn": {
     "name": "美橙互联旗下建站之星",
