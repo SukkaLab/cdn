@@ -748,3 +748,6 @@ ncname.com:
 alipaydns.com:
   name: 蚂蚁金服旗下业务地域负载均衡系统
   link: https://lab.skk.moe/cdn/
+wscloudcdn.com:
+  name: 全速云（网宿）CloudEdge 云加速
+  link: https://www.quansucloud.com/product.action?product.id=270
