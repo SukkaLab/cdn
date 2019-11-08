@@ -481,10 +481,16 @@ dnsv1.com:
 tencdns.net:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+tcdnvod.com:
+  name: 腾讯云视频 CDN
+  link: https://lab.skk.moe/cdn
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
 ks-cdn.com:
+  name: 金山云 CDN
+  link: https://www.ksyun.com/post/product/CDN
+ksyuncdn-k1.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
 netlify.com:
@@ -530,7 +536,7 @@ att-dsa.net:
   name: "AT&T Content Delivery Network"
   link: https://www.business.att.com/products/cdn.html
 azioncdn.net:
-  name: "Azion Tech | Edge Computing PLatform"
+  name: "Azion Tech | Edge Computing PLatform
   link: https://www.azion.com
 belugacdn.com:
   name: "BelugaCDN"
@@ -583,6 +589,9 @@ bitgravity.com:
 zenedge.net:
   name: Oracle Dyn Web Application Security suite (原 Zenedge CDN)
   link: https://cdn.tatacommunications.com
+biliapi.com:
+  name: Bilibili 业务 GSLB
+  link: https://lab.skk.moe/cdn
 hdslb.net:
   name: Bilibili 高可用负载均衡
   link: https://github.com/bilibili/overlord
@@ -610,11 +619,17 @@ elemecdn.com:
 sinaedge.com:
   name: 新浪科技融合CDN负载均衡
   link: https://lab.skk.moe/cdn
+sina.com.cn:
+  name: 新浪科技融合CDN负载均衡
+  link: https://lab.skk.moe/cdn
 sinacdn.com:
   name: 新浪云 CDN
   link: https://www.sinacloud.com/doc/sae/php/cdn.html
 sinasws.com:
   name: 新浪云 CDN
+  link: https://www.sinacloud.com/doc/sae/php/cdn.html
+saebbs.com:
+  name: 新浪云 SAE 云引擎
   link: https://www.sinacloud.com/doc/sae/php/cdn.html
 websitecname.cn:
   name: 美橙互联旗下建站之星
