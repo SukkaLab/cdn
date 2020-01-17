@@ -3,7 +3,7 @@ const yml = require('gulp-yaml');
 const htmlmin = require("gulp-htmlmin");
 const htmlclean = require("gulp-htmlclean");
 
-let yml2json = () => {
+const yml2json = () => {
     return gulp.src('./src/cdn.yml')
         .pipe(yml({
             schema: 'DEFAULT_SAFE_SCHEMA',
@@ -12,7 +12,7 @@ let yml2json = () => {
         .pipe(gulp.dest('./dist/'));
 }
 
-let minifyHTML = () => {
+const minifyHTML = () => {
     return gulp.src('src/*.html')
         .pipe(htmlmin({
             removeComments: true,
