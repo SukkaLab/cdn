@@ -131,7 +131,7 @@ chinacache.net:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
 lxdns.com:
-  name: 蓝汛 CDN
+  name: 网宿 CDN
   link: https://cn.chinacache.com/
 cloudflare.net:
   name: Cloudflare
@@ -613,9 +613,6 @@ sinajs.cn:
 tencent-cloud.net:
   name: 腾讯旗下业务地域负载均衡系统
   link: https://lab.skk.moe/cdn
-qq.com:
-  name: 腾讯旗下业务地域负载均衡系统
-  link: https://lab.skk.moe/cdn
 elemecdn.com:
   name: 饿了么静态域名与地域负载均衡
   link: https://lab.skk.moe/cdn
@@ -722,7 +719,7 @@ cdnle.com:
   name: 新乐视云联（原乐视云）CDN
   link: http://www.lecloud.com/zh-cn
 gosuncdn.com:
-  name: 高升控股CDN借宿
+  name: 高升控股CDN技术
   link: http://www.gosun.com
 mmtrixopt.com:
   name: mmTrix性能魔方（高升控股旗下）

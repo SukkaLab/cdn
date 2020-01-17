@@ -1,6 +1,6 @@
 {
   "name": "@sukka/cdn",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "devDependencies": {
     "gulp": "4.0.2",
     "gulp-htmlclean": "2.7.22",
