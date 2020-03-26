@@ -133,6 +133,9 @@ chinacache.net:
 lxdns.com:
   name: 网宿 CDN
   link: https://cn.chinacache.com/
+wswebpic.com:
+  name: 网宿 CDN
+  link: https://cn.chinacache.com/
 cloudflare.net:
   name: Cloudflare
   link: https://www.cloudflare.com
