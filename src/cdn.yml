@@ -130,12 +130,15 @@ c3dns.net:
 chinacache.net:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
+wswebcdn.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com/
 lxdns.com:
   name: 网宿 CDN
-  link: https://cn.chinacache.com/
+  link: https://www.wangsu.com/
 wswebpic.com:
   name: 网宿 CDN
-  link: https://cn.chinacache.com/
+  link: https://www.wangsu.com/
 cloudflare.net:
   name: Cloudflare
   link: https://www.cloudflare.com
