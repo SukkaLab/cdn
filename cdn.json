@@ -651,6 +651,10 @@
     "name": "腾讯云 CDN",
     "link": "https://cloud.tencent.com/product/cdn-scd"
   },
+  "dayugslb.com": {
+    "name": "腾讯云大禹 BGP 高防",
+    "link": "https://cloud.tencent.com/product/ddos-advanced"
+  },
   "tcdnvod.com": {
     "name": "腾讯云视频 CDN",
     "link": "https://lab.skk.moe/cdn"
