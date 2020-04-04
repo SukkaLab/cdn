@@ -325,6 +325,9 @@ qingcache.com:
 qingcloud.com:
   name: 青云 CDN
   link: https://www.qingcloud.com/products/cdn/
+frontwize.com:
+  name: 青云 CDN
+  link: https://www.qingcloud.com/products/cdn/
 msscdn.com:
   name: 美团云 CDN
   link: https://www.mtyun.com/product/cdn
