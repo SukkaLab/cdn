@@ -175,9 +175,17 @@
     "name": "蓝汛 CDN",
     "link": "https://cn.chinacache.com/"
   },
+  "wswebcdn.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com/"
+  },
   "lxdns.com": {
     "name": "网宿 CDN",
-    "link": "https://cn.chinacache.com/"
+    "link": "https://www.wangsu.com/"
+  },
+  "wswebpic.com": {
+    "name": "网宿 CDN",
+    "link": "https://www.wangsu.com/"
   },
   "cloudflare.net": {
     "name": "Cloudflare",
@@ -427,6 +435,10 @@
     "name": "青云 CDN",
     "link": "https://www.qingcloud.com/products/cdn/"
   },
+  "frontwize.com": {
+    "name": "青云 CDN",
+    "link": "https://www.qingcloud.com/products/cdn/"
+  },
   "msscdn.com": {
     "name": "美团云 CDN",
     "link": "https://www.mtyun.com/product/cdn"
@@ -643,6 +655,10 @@
     "name": "腾讯云 CDN",
     "link": "https://cloud.tencent.com/product/cdn-scd"
   },
+  "dayugslb.com": {
+    "name": "腾讯云大禹 BGP 高防",
+    "link": "https://cloud.tencent.com/product/ddos-advanced"
+  },
   "tcdnvod.com": {
     "name": "腾讯云视频 CDN",
     "link": "https://lab.skk.moe/cdn"
@@ -746,6 +762,10 @@
   "footprint.net": {
     "name": "CenturyLink CDN (原 Level 3)",
     "link": "https://www.centurylink.com/business/networking/cdn.html"
+  },
+  "llnwi.net": {
+    "name": "Limelight Network",
+    "link": "https://www.limelight.com"
   },
   "llnwd.net": {
     "name": "Limelight Network",
