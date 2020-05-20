@@ -399,7 +399,10 @@ jcloud-cdn.com:
   link: https://www.jdcloud.com/cn/products/cdn
 maoyun.tv:
   name: 猫云融合 CDN
-  link: https://www.maoyun.tv
+  link: https://www.maoyun.com/
+maoyundns.com:
+  name: 猫云融合 CDN
+  link: https://www.maoyun.com/
 xgslb.net:
   name: WebLuker (蓝汛)
   link: http://www.webluker.com
