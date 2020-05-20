@@ -533,7 +533,11 @@
   },
   "maoyun.tv": {
     "name": "猫云融合 CDN",
-    "link": "https://www.maoyun.tv"
+    "link": "https://www.maoyun.com/"
+  },
+  "maoyundns.com": {
+    "name": "猫云融合 CDN",
+    "link": "https://www.maoyun.com/"
   },
   "xgslb.net": {
     "name": "WebLuker (蓝汛)",
