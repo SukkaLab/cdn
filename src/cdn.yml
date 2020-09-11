@@ -460,6 +460,9 @@ systemcdn.net:
 edgecastcdn.net:
   name: Verizon CDN (Edgecast)
   link: https://www.verizondigitalmedia.com/platform/edgecast-cdn/
+zetacdn.net:
+  name: Verizon CDN (Edgecast)
+  link: https://www.verizondigitalmedia.com/platform/edgecast-cdn/
 coding.io:
   name: Coding Pages
   link: https://coding.net/pages
