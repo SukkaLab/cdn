@@ -520,6 +520,9 @@ tdnsv[1-9].com:
 tdnsv1[0-5].com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+tdnsstic[1-4].cn.com:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
