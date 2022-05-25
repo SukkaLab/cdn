@@ -514,7 +514,10 @@ dayugslb.com:
 tcdnvod.com:
   name: 腾讯云视频 CDN
   link: https://lab.skk.moe/cdn
-tdnsv5.com:
+tdnsv[1-9].com:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+tdnsv1[0-5].com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
 ksyuncdn.com:
