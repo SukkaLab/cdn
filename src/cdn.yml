@@ -364,7 +364,7 @@ aligaofang.com:
 yundunddos.com:
   name: 阿里云盾高防
   link: https://www.aliyun.com/product/ddos
-kunlun(.*).com:
+kunlun[^.]+.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
 cdngslb.com:
