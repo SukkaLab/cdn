@@ -811,3 +811,12 @@ cdngtm.com:
 cdngtm.cn:
   name: 网宿 CDN
   link: https://www.wangsu.com/
+funnull.org:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnullv[89].com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnullv[1-2][0-9].com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
