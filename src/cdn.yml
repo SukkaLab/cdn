@@ -526,6 +526,9 @@ tdnsv1[0-5].com:
 tdnsstic[1-4].cn.com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+myqcloud.com:
+  name: 腾讯云对象存储
+  link: https://cloud.tencent.com/product/cos
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
