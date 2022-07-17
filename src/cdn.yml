@@ -796,3 +796,21 @@ alipaydns.com:
 wscloudcdn.com:
   name: 全速云（网宿）CloudEdge 云加速
   link: https://www.quansucloud.com/product.action?product.id=270
+ctadns.cn:
+  name: 中国电信天翼云CDN加速
+  link: https://www.ctyun.cn/products/10015926
+ctdns.cn:
+  name: 中国电信天翼云CDN加速
+  link: https://www.ctyun.cn/products/10015926
+ctycdn.com:
+  name: 中国电信天翼云安全加速
+  link: https://www.ctyun.cn/products/scdn	
+edgecloudx.cn:
+  name: 中国电信天翼云智能边缘云
+  link: https://www.ctyun.cn/products/ecx
+woyuncdn.cn
+  name: 中国联通沃云CDN
+  link: https://cdn.cucloud.cn/
+cmecloud.cn
+  name: 中国移动移动云CDN(多网)
+  link: https://ecloud.10086.cn/home/product-introduction/cdn
