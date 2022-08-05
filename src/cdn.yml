@@ -751,6 +751,9 @@ aocde.com:
 ctxcdn.cn:
   name: 中国电信天翼云CDN
   link: https://www.ctyun.cn/product2/#/product/10027560
+ctdns.cn:
+  name: 中国电信天翼云CDN
+  link: https://www.ctyun.cn/document/10007729/10007735
 yfcdn.net:
   name: 云帆加速CDN
   link: https://www.yfcloud.com
