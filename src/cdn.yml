@@ -532,6 +532,15 @@ tcdnlive.com:
 myqcloud.com:
   name: 腾讯云对象存储
   link: https://cloud.tencent.com/product/cos
+gaapqcloud.com:
+  name: 腾讯云全球应用加速
+  link: https://cloud.tencent.com/product/gaap
+gaapqcloud.com.cn:
+  name: 腾讯云全球应用加速
+  link: https://cloud.tencent.com/product/gaap
+gsadds.com:
+  name: 腾讯云 DDoS 防护
+  link: https://cloud.tencent.com/product/ddos
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
