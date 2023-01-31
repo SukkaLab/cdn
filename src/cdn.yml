@@ -112,6 +112,9 @@ cdnsun.net:
 bdydns.com:
   name: 百度云 CDN
   link: https://cloud.baidu.com/product/cdn.html
+jomodns.com:
+  name: 百度云 CDN
+  link: https://cloud.baidu.com/product/cdn.html
 ccgslb.com.cn:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
