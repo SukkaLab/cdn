@@ -1,22 +1,32 @@
-[https://github.com/zu1k/nali](https://github.com/zu1k/nali) 的 CDN 信息不支持正则，用 `nali2.py` 对 `nali` 结果二次处理，补充需要用正则的 CDN 信息。
+常见 CDN 的 cname 库，配合 [https://github.com/zu1k/nali](https://github.com/zu1k/nali) 使用。
 
-## 使用方法
-1. 下载 cdn.yml 和 nalil2.py
-
+## 效果
+nslook 默认效果
 ```bash
-wget https://raw.githubusercontent.com/4ft35t/cdn/master/src/cdn.yml -O ~/.nali/cdn.yml
-wget https://raw.githubusercontent.com/4ft35t/cdn/master/nali2.py
+nslookup www.baidu.com 114.114.114.114
+Server:		114.114.114.114
+Address:	114.114.114.114#53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com.
+Name:	www.a.shifen.com
+Address: 220.181.38.150
+Name:	www.a.shifen.com
+Address: 220.181.38.149
 ```
 
-2. pip 安装 publicsuffixlist 库
+叠加 `nali` 后效果
 ```bash
-pip3 install publicsuffixlist
+nslookup www.baidu.com 114.114.114.114 | nali
+Server:		114.114.114.114 [114DNS.COM 114DNS.COM]
+Address:	114.114.114.114 [114DNS.COM 114DNS.COM] #53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com [百度旗下业务地域负载均衡系统] .
+Name:	www.a.shifen.com [百度旗下业务地域负载均衡系统]
+Address: 220.181.38.149 [中国 北京 北京]
+Name:	www.a.shifen.com [百度旗下业务地域负载均衡系统]
+Address: 220.181.38.150 [中国 北京 北京]
 ```
 
-3. 用 nali2.py 补全信息
-```bash
-nslookup exp.leuke.cn 114.114.114.114 | nali | python3 nali2.py
-```
-
-## 和 nali 对比
-![](img/nali2.jpeg)
+更多用法见 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
