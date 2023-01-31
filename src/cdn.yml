@@ -34,6 +34,9 @@ qihucdn.com:
 360wzws.com:
   name: 奇安信网站卫士
   link: https://wangzhan.qianxin.com
+qaxwzws.com:
+  name: 奇安信网站卫士
+  link: https://wangzhan.qianxin.com
 akamai.net:
   name: Akamai CDN
   link: https://www.akamai.com
@@ -506,6 +509,9 @@ cdntip.com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
 dnsv1.com:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+dnsv1.com.cn:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
 tencdns.net:
