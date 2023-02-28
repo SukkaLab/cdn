@@ -850,7 +850,7 @@ funnullv[89].com:
 funnullv[1-2][0-9].com:
   name: 方能 CDN
   link: https://www.funnull.com/
-funnull3[35].com:
+funnull3[135].com:
   name: 方能 CDN
   link: https://www.funnull.com/
 pcwaf.com:
@@ -875,8 +875,5 @@ aqyun.com:
   name: 知道创宇云安全 CDN
   link: https://www.yunaq.com/
 funnull01.vip:
-  name: 方能 CDN
-  link: https://funnull.io/
-funnull31.com:
   name: 方能 CDN
   link: https://funnull.io/
