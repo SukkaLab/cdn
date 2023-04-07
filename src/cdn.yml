@@ -553,6 +553,9 @@ gaapqcloud.com.cn:
 gsadds.com:
   name: 腾讯云 DDoS 防护
   link: https://cloud.tencent.com/product/ddos
+tencentcs.com:
+  name: 腾讯云 API 网关
+  link: https://cloud.tencent.com/document/product/628/11827
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
