@@ -20,3 +20,19 @@ https://webapi.pcwaf.com/rs/webEssayRest/getEssay?essayCode=Q3aS4Bl35INtx5BC
 
 # wcdnga.com
 IP 默认 https 证书 default.chinanetcenter.com，网宿
+
+# 方能
+```bah
+nslookup 7886m.com 1.1.1.1
+Server:		1.1.1.1
+Address:	1.1.1.1#53
+
+Non-authoritative answer:
+7886m.com	canonical name = q9uapyex-u.funnull02.vip.
+q9uapyex-u.funnull02.vip	canonical name = 17f77fb7.u.fn01.vip.
+17f77fb7.u.fn01.vip	canonical name = 5d97d06c3.n.fnvip100.com.
+Name:	5d97d06c3.n.fnvip100.com
+Address: 134.122.160.166
+Name:	5d97d06c3.n.fnvip100.com
+Address: 134.122.160.133
+```
