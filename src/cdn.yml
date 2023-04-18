@@ -859,6 +859,15 @@ funnullv[1-2][0-9].com:
 funnull3[135].com:
   name: 方能 CDN
   link: https://www.funnull.com/
+funnull0[12].vip:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+fn01.vip:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+fnvip100.com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
 pcwaf.com:
   name: 锐速云 CDN
   link: https://www.ruisuyun.com/aboutus/36.html
@@ -880,9 +889,6 @@ yunduncdn.com:
 aqyun.com:
   name: 知道创宇云安全 CDN
   link: https://www.yunaq.com/
-funnull01.vip:
-  name: 方能 CDN
-  link: https://funnull.io/
 jsdun.info:
   name: 极速盾
   link: https://www.dnsqx.com/index.html
