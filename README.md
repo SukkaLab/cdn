@@ -1,7 +1,7 @@
 常见 CDN 的 cname 库，配合 [https://github.com/zu1k/nali](https://github.com/zu1k/nali) 使用。
 
 ## 效果
-nslook 默认效果
+nslookup 默认效果
 ```bash
 nslookup www.baidu.com 114.114.114.114
 Server:		114.114.114.114
