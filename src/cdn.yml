@@ -304,6 +304,9 @@ bsclink.cn:
 trpcdn.net:
   name: 白山云 CDN
   link: https://zh.baishancloud.com/
+bsccdn.net:
+  name: 白山云 CDN
+  link: https://zh.baishancloud.com/
 anquan.io:
   name: 牛盾云安全
   link: https://www.newdefend.com
