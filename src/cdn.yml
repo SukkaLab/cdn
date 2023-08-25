@@ -415,6 +415,9 @@ qiniudn.com:
 qnssl.com:
   name: 七牛云
   link: https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules
+qnydns.com:
+  name: 七牛云
+  link: https://www.qiniu.com
 jcloudcs.com:
   name: 京东云 CDN
   link: https://www.jdcloud.com/cn/products/cdn
