@@ -385,6 +385,9 @@ cdngslb.com:
 gtm-a[1-7]b[1-9].com:
   name: 阿里云全局流量管理
   link: https://help.aliyun.com/document_detail/283229.html
+yundunwaf[1-5].com:
+  name: 阿里云 WAF
+  link: https://yundun.aliyun.com
 yunjiasu-cdn.net:
   name: 百度云加速
   link: https://su.baidu.com
