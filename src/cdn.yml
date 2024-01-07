@@ -34,6 +34,9 @@ qihucdn.com:
 360wzws.com:
   name: 奇安信网站卫士
   link: https://wangzhan.qianxin.com
+qaxwzws.com:
+  name: 奇安信网站卫士
+  link: https://wangzhan.qianxin.com
 akamai.net:
   name: Akamai CDN
   link: https://www.akamai.com
@@ -109,6 +112,9 @@ cdnsun.net:
 bdydns.com:
   name: 百度云 CDN
   link: https://cloud.baidu.com/product/cdn.html
+jomodns.com:
+  name: 百度云 CDN
+  link: https://cloud.baidu.com/product/cdn.html
 ccgslb.com.cn:
   name: 蓝汛 CDN
   link: https://cn.chinacache.com/
@@ -176,6 +182,9 @@ wtxcdn.com:
   name: 网宿 CDN
   link: https://www.wangsu.com
 wsssec.com:
+  name: 网宿 WAF CDN
+  link: https://www.wangsu.com
+wcdnga.com:
   name: 网宿 WAF CDN
   link: https://www.wangsu.com
 fastly.net:
@@ -295,6 +304,9 @@ bsclink.cn:
 trpcdn.net:
   name: 白山云 CDN
   link: https://zh.baishancloud.com/
+bsccdn.net:
+  name: 白山云 CDN
+  link: https://zh.baishancloud.com/
 anquan.io:
   name: 牛盾云安全
   link: https://www.newdefend.com
@@ -364,12 +376,18 @@ aligaofang.com:
 yundunddos.com:
   name: 阿里云盾高防
   link: https://www.aliyun.com/product/ddos
-kunlun(.*).com:
+kunlun[^.]+.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
 cdngslb.com:
   name: 阿里云 CDN
   link: https://www.aliyun.com/product/cdn
+gtm-a[1-7]b[1-9].com:
+  name: 阿里云全局流量管理
+  link: https://help.aliyun.com/document_detail/283229.html
+yundunwaf[1-5].com:
+  name: 阿里云 WAF
+  link: https://yundun.aliyun.com
 yunjiasu-cdn.net:
   name: 百度云加速
   link: https://su.baidu.com
@@ -386,6 +404,21 @@ qiniu.com:
   name: 七牛云
   link: https://www.qiniu.com
 qiniudns.com:
+  name: 七牛云
+  link: https://www.qiniu.com
+clouddn.com:
+  name: 七牛云
+  link: https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules
+qiniucdn.com:
+  name: 七牛云
+  link: https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules
+qiniudn.com:
+  name: 七牛云
+  link: https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules
+qnssl.com:
+  name: 七牛云
+  link: https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules
+qnydns.com:
   name: 七牛云
   link: https://www.qiniu.com
 jcloudcs.com:
@@ -502,6 +535,9 @@ cdntip.com:
 dnsv1.com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+dnsv1.com.cn:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
 tencdns.net:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
@@ -511,9 +547,36 @@ dayugslb.com:
 tcdnvod.com:
   name: 腾讯云视频 CDN
   link: https://lab.skk.moe/cdn
-tdnsv5.com:
+tdnsv[1-9].com:
   name: 腾讯云 CDN
   link: https://cloud.tencent.com/product/cdn-scd
+tdnsv1[0-5].com:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+tdnsstic[1-4].cn.com:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+cdn-go.cn:
+  name: 腾讯云 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+tcdnlive.com:
+  name: 腾讯云直播 CDN
+  link: https://cloud.tencent.com/product/cdn-scd
+myqcloud.com:
+  name: 腾讯云对象存储
+  link: https://cloud.tencent.com/product/cos
+gaapqcloud.com:
+  name: 腾讯云全球应用加速
+  link: https://cloud.tencent.com/product/gaap
+gaapqcloud.com.cn:
+  name: 腾讯云全球应用加速
+  link: https://cloud.tencent.com/product/gaap
+gsadds.com:
+  name: 腾讯云 DDoS 防护
+  link: https://cloud.tencent.com/product/ddos
+tencentcs.com:
+  name: 腾讯云 API 网关
+  link: https://cloud.tencent.com/document/product/628/11827
 ksyuncdn.com:
   name: 金山云 CDN
   link: https://www.ksyun.com/post/product/CDN
@@ -670,6 +733,9 @@ cdncenter.cn:
 vhostgo.com:
   name: 西部数码虚拟主机
   link: https://www.west.cn
+gotoip55.com:
+  name: 西部数码虚拟主机
+  link: https://www.west.cn
 jsd.cc:
   name: 上海云盾YUNDUN
   link: https://www.yundun.com
@@ -733,6 +799,9 @@ aocde.com:
 ctxcdn.cn:
   name: 中国电信天翼云CDN
   link: https://www.ctyun.cn/product2/#/product/10027560
+ctdns.cn:
+  name: 中国电信天翼云CDN
+  link: https://www.ctyun.cn/document/10007729/10007735
 yfcdn.net:
   name: 云帆加速CDN
   link: https://www.yfcloud.com
@@ -796,3 +865,72 @@ alipaydns.com:
 wscloudcdn.com:
   name: 全速云（网宿）CloudEdge 云加速
   link: https://www.quansucloud.com/product.action?product.id=270
+cdngtm.com:
+  name: 网宿 CDN
+  link: https://www.wangsu.com/
+cdngtm.cn:
+  name: 网宿 CDN
+  link: https://www.wangsu.com/
+funnull.org:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnullv[89].com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnullv[1-2][0-9].com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnull3[135].com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+funnull0[12].vip:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+fn0[1-3].vip:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+fnvip100.com:
+  name: 方能 CDN
+  link: https://www.funnull.com/
+pcwaf.com:
+  name: 锐速云 CDN
+  link: https://www.ruisuyun.com/aboutus/36.html
+nbwaf.com:
+  name: 锐速云 CDN
+  link: https://www.ruisuyun.com/aboutus/36.html
+yisuddoscdn.com:
+  name: 亿速云 CDN
+  link: https://www.yisu.com/
+yunduns.com:
+  name: 上海云盾
+  link: https://www.yundun.com/
+hwwsdns.cn:
+  name: 上海云盾
+  link: https://www.yundun.com/
+yunduncdn.com:
+  name: 上海云盾
+  link: https://www.yundun.com/
+aqyun.com:
+  name: 知道创宇云安全 CDN
+  link: https://www.yunaq.com/
+jsdun.info:
+  name: 极速盾
+  link: https://www.dnsqx.com/index.html
+vedcdnlb.com:
+  name: 字节跳动旗下火山引擎
+  link: https://www.volcengine.com
+volcmcdn[12].com:
+  name: 字节跳动旗下火山引擎
+  link: https://www.volcengine.com
+volcgslb.com:
+  name: 字节跳动旗下火山引擎
+  link: https://www.volcengine.com
+volcgtm.com:
+  name: 字节跳动旗下火山引擎
+  link: https://www.volcengine.com
+cdnbuild.net:
+  name: 字节跳动旗下火山引擎
+  link: https://www.volcengine.com/docs/6559/108606
+saaswaf.com:
+  name: 安恒云 WAF
+  link: https://www.anhengcloud.com/help/faq/cloudsafe/waf/siteaccess.html
